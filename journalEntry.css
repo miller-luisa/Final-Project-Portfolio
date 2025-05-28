@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0; 
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://img.freepik.com/premium-photo/feminine-aesthetic-clipart-png-pink-essentials-illustration-set_53876-1046885.jpg?semt=ais_hybrid);
+  
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 35%;
+  padding: 1rem;
+  border-right: 2px solid #eee;
+  overflow-y: auto;
+  background-color: #f9f9f9bb;
+  
+}
+
+.sidebar h3 {
+  color: #a4133c;
+  margin-top: 1;
+  font-size: 1.5rem;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+  background: #fff;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  
+}
+
+.sidebar button {
+  margin-top: 0.5rem;
+  background-color: #a4133c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.sidebar button:hover {
+  background-color: #ff8fa3;
+}
+
+.journal-preview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  color: #444;
+}
+
+.journal-container {
+  flex: 1;
+  padding: 2rem; 
+}
+
+.journal-container h2 {
+  color: #a4133c;
+  margin-bottom: 20px;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+#title-box,
+#entry-body {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-family: "Oxanium", sans-serif;
+}
+
+#entry-body {
+  height: 200px;
+  resize: vertical;
+  background: #ff8fa3;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #a4133c;
+  color: white;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+button:hover {
+  background-color: #ff8fa3;
+}
+
+#journal-heading{
+  margin-bottom: 1rem;
+  background: #fff;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
