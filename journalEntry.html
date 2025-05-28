@@ -1,1 +1,51 @@
+ <!DOCTYPE html>
+  <html>
+  <head>
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Journal Entry Website</title>
+  <link rel="stylesheet" href="style.css">
+  
+  </head>
+  
+<body>
+    <!-- the main container that holds the sidebar and journal entry area -->
+    <div class="main-container">
+
+    <!-- created a sidebar with a list that holds the saved journal entries -->
+    <div class="sidebar">
+      <h3>Saved Entries</h3>
+      <ul id="entries-list"></ul> 
+    </div>
+
+    <!-- made a journal input container -->
+    <div class="journal-container">
+      <h2 id="journal-heading">Today's Journal</h2> 
+
+      <!-- allows the user to input their own titles -->
+      <input type="text" id="title-box" placeholder="Title...">
+
+      <!-- this area is where the useer will write our their journal entires, below the title -->
+      <textarea id="entry-body" placeholder="Write your journal..."></textarea>
+
+      <!-- created buttons for users to save or erase their journal entry -->
+      <div class="buttons">
+        <button onclick="saveEntry()">Save</button>
+        <button onclick="eraseEntry()">Erase</button>
+      </div>
+      </div>
+
+      </div>
+
+  <script src="script.js"></script>       
+    
+  </body> 
+  </html>
