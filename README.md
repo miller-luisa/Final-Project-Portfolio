@@ -24,7 +24,7 @@ A clean and modern design using custom colors, fonts, and layout
 ## 1. To Do List App
 This website can help you remember to complete important tasks, making your day to day life organized and easier. Simply add as many tasks as needed to your list and when you're done, check it off by clicking the circle, indicating that you’ve completed that task.
 
-## 2. Real Time Clock and Weather App
+## 2. Real Time Digital Clock and Weather App
 This real time website can be set as an aesthetic background with a calming background displayed. This website is also useful to search for a current weather forecast in any city in the world.
 
 ## 3. Drum Kit & Tambourine Sound Board
