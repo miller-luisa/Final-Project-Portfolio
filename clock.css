@@ -4,13 +4,13 @@ body{
   background-position: center; 
   margin: 0;
 }
-#clock-container{
+clock-container{
   display: flex;
   align-items: top;
   justify-content: center;
   height: 100vh;
 }
-#clock{
+clock{
   font-family: "DM Serif Text", serif;
   font-size: 6.1rem;
   font-weight: normal;
@@ -19,7 +19,7 @@ body{
   backdrop-filter: blur(2px);
   width: 100%;
 }
-#date{
+date{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@ body2{
   position: top;
 }
 
-#weather-container {
+weather-container {
   background: rgba(255, 255, 255, 0.3);
   max-width: 300px; 
   width: 100%; 
@@ -99,7 +99,7 @@ button:hover {
   background: #ffb703;
 }
 
-#temp-div p {
+temp-div p {
   font-size: 50px; 
   font-weight: bold;
   margin: 10px 0;
@@ -109,7 +109,7 @@ button:hover {
   font-size: 16px;
 }
 
-#weather-display {
+weather-display {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,13 +117,13 @@ button:hover {
   margin-top: 15px; 
 }
 
-#weather-icon {
+weather-icon {
   width: 120px; 
   height: 120px; 
   display: none;
 }
 
-#hourly-forecast {
+hourly-forecast {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -137,7 +137,7 @@ button:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.hourly-item {
+hourly-item {
   flex: 0 0 auto;
   background: rgba(255, 255, 255, 0.2);
   padding: 8px; 
@@ -153,17 +153,17 @@ button:hover {
   justify-content: center;
 }
 
-.hourly-item:hover {
+hourly-item:hover {
   transform: translateY(-5px);
 }
 
-.hourly-item img {
+hourly-item img {
   width: 35px; 
   height: 30px; 
   margin-bottom: 2px;
 }
 
-#hourly-heading {
+hourly-heading {
   color: #fff;
   margin-top: 10px; 
   font-size: 16px; 
