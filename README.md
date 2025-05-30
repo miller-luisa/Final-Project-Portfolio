@@ -36,7 +36,7 @@ This website is useful to anyone who needs a place to write down any thoughts, n
 # Links
 🔗 GitHub Repository: [Final Project Portfolio Repo](https://github.com/miller-luisa/Final-Project-Portfolio/tree/main)
 
-🌐 Live Site:[ View Portfolio](https://miller-luisa.github.io/Final-Project-Portfolio/)
+🌐 Live Site:[ View Portfolio Website](https://miller-luisa.github.io/Final-Project-Portfolio/)
 
 
 
