@@ -34,7 +34,7 @@ This sound board is helpful as you can listen and experience the different sound
 This website is useful to anyone who needs a place to write down any thoughts, notes, or just random things and want to save it in a safe place. It’s great for any use for work, school, or personal. You’re able to save as many entries as you want, and if needed, you can also delete it permanently.
 
 # Links
-🔗 GitHub Repository: Final Project Portfolio on GitHub
+🔗 GitHub Repository: [Final Project Portfolio on GitHub](https://github.com/miller-luisa/Final-Project-Portfolio/tree/main)
 
 🌐 Live Site:[ View Portfolio on GitHub Pages](https://miller-luisa.github.io/Final-Project-Portfolio/)
 
