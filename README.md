@@ -1,4 +1,4 @@
-# Final Project Portfolio - Luisa Miller
+# Personal Portfolio Project - Luisa Miller
 
 ## About Me
 Hi, my name is Luisa Miller. I am just finishing my high school education and I am a beginner programmer. 
