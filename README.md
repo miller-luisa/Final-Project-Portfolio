@@ -1,4 +1,4 @@
-# Final-Project-Portfolio - Luisa Miller
+# Final Project Portfolio - Luisa Miller
 
 ## About Me
 Hi, my name is Luisa Miller. I’m currently completing my high school education and just beginning my journey as a programmer. This past school year, I had the opportunity to take a Computer Science Principles class, which gave me an exciting introduction to the world of computer programming.
