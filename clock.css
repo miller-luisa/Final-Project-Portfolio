@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, #22577a, #57cc99);
+  background: linear-gradient(to bottom, #cad2c5,#52796f,#354f52);
   margin: 0;
 }
 clock-container{
@@ -13,7 +13,7 @@ clock{
   font-size: 6.1rem;
   font-weight: normal;
   text-align: center;
-  color: #ffb703;
+  color: #2f3e46;
   backdrop-filter: blur(2px);
   width: 100%;
 }
@@ -25,7 +25,7 @@ date{
   font-size: 25px;
   font-weight: normal;
   text-align: center;
-  color: #ffdc5e;
+  color: #cad2c5;
   backdrop-filter: blur(2px);
   width: 100%;
   margin-top: 0;
@@ -61,7 +61,7 @@ weather-container {
 }
 
 h2{
-  color: #e76f51;
+  color: #354f52;
   margin: 8px 0;
   font-size: 20px; 
 }
@@ -83,7 +83,7 @@ input {
 }
 
 button {
-  background: #ffdc5e;
+  background: #52796f;
   color: white;
   border: none;
   border-radius: 10px;
@@ -94,7 +94,7 @@ button {
 }
 
 button:hover {
-  background: #ffb703;
+  background: #2f3e46;
 }
 
 temp-div p {
@@ -166,4 +166,3 @@ hourly-heading {
   margin-top: 10px; 
   font-size: 16px; 
 }
-
