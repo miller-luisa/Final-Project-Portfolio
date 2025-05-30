@@ -7,7 +7,7 @@ This past school year, I had the opportunity to take a Computer Science Principl
 Throughout the course, I followed tutorials and classroom lessons to build small programs, and I gradually started to understand how code works and what it can create. I also faced many challenges in grasping new coding concepts, but I learned to stay curious and keep experimenting. One of the highlights of my learning experience was working with CodePen, where I enjoyed seeing the visual results of my code and exploring creative design using CSS. From customizing colors and fonts to experimenting with layouts and interactivity, I discovered that I enjoy the visual design aspect of web development.  Overall, I am happy that I got to experience this side of science in computer programming and probably look forward to learning more on my own time.
 
 ## About This Project
-This portfolio project is the final assignment for my Computer Science Principles class. It showcases several of the projects I’ve worked on this year, highlighting what I’ve learned about HTML, CSS, JavaScript, and basic web development concepts. It represents both my progress as a beginner programmer and my interest in creative coding.
+This portfolio project showcases several of the projects I’ve worked on this year, highlighting what I’ve learned about HTML, CSS, JavaScript, and basic web development concepts. It represents both my progress as a beginner programmer and my interest in creative coding. Through these projects, I learned how to bring my ideas to life on the web, improve my coding structure, and make user-friendly interfaces. 
 
 # What My Portfolio Includes
 My portfolio site includes:
@@ -18,7 +18,7 @@ A project gallery with links to my work
 
 Descriptions of each project and what I learned while building them
 
-A clean and simple design using custom colors, fonts, and layout
+A clean and modern design using custom colors, fonts, and layout
 
 # Featured Projects
 ## 1. To Do List App
