@@ -12,13 +12,13 @@ This portfolio project showcases several of the projects I’ve worked on this y
 # What My Portfolio Includes
 My portfolio site includes:
 
-> A homepage with a brief introduction about me
+- A homepage with a brief introduction about me
 
-> A project gallery with links to my work
+- A project gallery with links to my work
 
-> Descriptions of each project and what I learned while building them
+- Descriptions of each project and what I learned while building them
 
-> A clean and modern design using custom colors, fonts, and layout
+- A clean and modern design using custom colors, fonts, and layout
 
 # Featured Projects
 ## 1. To Do List App
