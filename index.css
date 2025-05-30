@@ -5,39 +5,39 @@ body {
       background: #f4f4f4;
       color: #333;
     }
-    header {
+header {
       background: #333;
       color: #fff;
       padding: 2rem 1rem;
       text-align: center;
     }
-    section {
+section {
       max-width: 1000px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
-    .projects {
+projects {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
     }
-    .project {
+project {
       background: white;
       padding: 1rem;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .project h3 {
+project h3 {
       margin-top: 0;
     }
-    footer {
+footer {
       text-align: center;
       padding: 1rem;
       background: #333;
       color: white;
       margin-top: 2rem;
     }
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
       .projects {
         grid-template-columns: 1fr;
       }
