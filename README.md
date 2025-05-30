@@ -22,16 +22,16 @@ A clean and simple design using custom colors, fonts, and layout
 
 # Featured Projects
 ## 1. To Do List App
-A simple game where users try to guess the correct color from a set of RGB values. This project helped me practice using JavaScript functions and DOM manipulation.
+This website can help you remember to complete important tasks, making your day to day life organized and easier. Simply add as many tasks as needed to your list and when you're done, check it off by clicking the circle, indicating that you’ve completed that task.
 
 ## 2. Real Time Clock and Weather App
-An interactive version of the classic game where a user plays against the computer. I learned how to use conditionals, event listeners, and display results dynamically.
+This real time website can be set as an aesthetic background with a calming background displayed. This website is also useful to search for a current weather forecast in any city in the world.
 
 ## 3. Drum Kit & Tambourine Sound Board
-A live digital clock that updates in real-time using JavaScript. This project helped me understand how to work with time, intervals, and dynamically update the DOM.
+This sound board is helpful as you can listen and experience the different sounds of these two instruments. You can either click the buttons or use your keyboard to play the sounds.
 
 ## 4. Journal Entry Website
-A multiple-choice quiz that keeps score and shows results at the end. I practiced using arrays, conditionals, and looping structures in this project.
+This website is useful to anyone who needs a place to write down any thoughts, notes, or just random things and want to save it in a safe place. It’s great for any use for work, school, or personal. You’re able to save as many entries as you want, and if needed, you can also delete it permanently.
 
 # Links
 🔗 GitHub Repository: Final Project Portfolio on GitHub
