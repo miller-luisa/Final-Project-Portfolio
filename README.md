@@ -36,7 +36,7 @@ This website is useful to anyone who needs a place to write down any thoughts, n
 # Links
 🔗 GitHub Repository: Final Project Portfolio on GitHub
 
-🌐 Live Site: View Portfolio on GitHub Pages
+🌐 Live Site:[ View Portfolio on GitHub Pages](https://miller-luisa.github.io/Final-Project-Portfolio/)
 
 
 
