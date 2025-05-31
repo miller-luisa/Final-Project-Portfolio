@@ -9,14 +9,14 @@ body {
   flex-direction: column;
 }
 
-#clock-container {
+clock-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#clock {
+clock {
   font-family: "DM Serif Text", serif;
   font-size: 6.1rem;
   font-weight: normal;
@@ -26,7 +26,7 @@ body {
   width: 100%;
 }
 
-#date {
+date {
   font-family: "DM Serif Text", serif;
   font-size: 25px;
   font-weight: normal;
