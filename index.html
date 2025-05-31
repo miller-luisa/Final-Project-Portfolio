@@ -3,61 +3,111 @@
 <head>
 <title>Personal Portfolio</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
     color: #333;
+    line-height: 1.6;
+  }
+
+  h1, h3 {
+    color: #2c3e50;
+  }
+
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   header {
-    background: #333;
+    background: #2c3e50;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
+    border-bottom: 4px solid #00bfff;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
   }
 
   section {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 0 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
-  .projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-  }
+ .projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
   .project {
     background: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
   }
 
   .project h3 {
     margin-top: 0;
+    font-size: 1.25rem;
+    color: #34495e;
+  }
+
+  .project p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
   }
 
   footer {
     text-align: center;
-    padding: 1rem;
-    background: #333;
+    padding: 1.5rem;
+    background: #2c3e50;
     color: white;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    border-top: 4px solid #3498db;
   }
 
   @media (max-width: 600px) {
-    .projects {
-      grid-template-columns: 1fr;
+    section {
+      padding: 1rem;
+    }
+    .project {
+      padding: 1rem;
     }
   }
 </style>
 
 </head>
 <body>
+  <header>
+  <h1>Personal Portfolio</h1>
+    <p>AP COMPUTER SCIENCE PRINCIPLES</p>
+</header>
+
 
   <h1>About Me</h1>
   <p>Hi, my name is Luisa Miller. I am just finishing my high school education and I am a beginner programmer. This past school year, I had the opportunity to take a Computer Science Principles class and it was a good learning experience.
