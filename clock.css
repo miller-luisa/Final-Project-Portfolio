@@ -7,7 +7,7 @@ body {
 #clock-container {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: top;
   height: 100vh;
 }
 
