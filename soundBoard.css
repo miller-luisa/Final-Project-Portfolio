@@ -1,19 +1,19 @@
-body{
-  background-image: url(https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bXVzaWMlMjBzdHVkaW98ZW58MHx8MHx8fDA%3D);
-  background-size: square;
-  background-position: center; 
+body {
+  background: linear-gradient(135deg, #cad2c5, #84a98c, #52796f);
   margin: 0;
+  font-family: "Quicksand", sans-serif;
+  height: 100vh;
 }
 
 #soundBoard-container {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.85);
   max-width: 400px;
   width: 100%;
-  padding: 15px;
+  padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  border: 4px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border: 3px solid #84a98c;
   text-align: center;
   position: absolute; 
   top: 50%; 
@@ -21,33 +21,33 @@ body{
   transform: translate(-50%, -50%);
 }
 
-h2{
-  color: black;
+h2 {
+  color: #2f3e46;
   margin: 10px;
   font-size: 40px;
 }
 
-h3{
-  color: #7209b7;
-  margin: 15px;
+h3 {
+  color: #52796f;
+  margin-bottom: 15px;
   font-size: 25px;
 }
 
-button{
-  background: black;
+button {
+  background: #354f52;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 30px; 
-  width: 170px; 
-  font-size: 22px; 
+  margin-top: 30px;
+  width: 170px;
+  font-size: 22px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: 0.4s;
-  display: center;
   padding: 5px;
 }
+
 button:hover {
-  background: #8b48d7;
+  background: #84a98c;
   transform: translateY(-5px);
 }
