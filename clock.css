@@ -1,39 +1,38 @@
-body{
-  background: linear-gradient(to bottom, #cad2c5,#52796f,#354f52);
+body {
+  background: linear-gradient(to bottom, #cad2c5, #52796f, #354f52);
   margin: 0;
+  font-family: "Quicksand", sans-serif;
 }
-#clock-container{
+
+#clock-container {
   display: flex;
-  align-items: top;
+  align-items: flex-start;
   justify-content: center;
   height: 100vh;
 }
-#clock{
+
+#clock {
   font-family: "DM Serif Text", serif;
   font-size: 6.1rem;
-  font-weight: normal;
-  text-align: center;
   color: #2f3e46;
+  text-align: center;
   backdrop-filter: blur(2px);
   width: 100%;
 }
-#date{
+
+#date {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "DM Serif Text", serif;
   font-size: 25px;
-  font-weight: normal;
-  text-align: center;
   color: #cad2c5;
   backdrop-filter: blur(2px);
   width: 100%;
-  margin-top: 0;
   margin: 0;
-  
 }
 
-body2{
+body{
   font-family: "Quicksand", sans-serif;
   display: flex;
   align-items: center;
