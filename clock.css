@@ -1,39 +1,38 @@
-body {
-  background: linear-gradient(to bottom, #cad2c5, #52796f, #354f52);
+body{
+  background-image: url(https://theloverspassport.com/wp-content/uploads/2020/02/1D049AB1-7F4D-4BDD-961D-E4AA49EA1001-1024x591.jpg);
+  background-size: cover;
+  background-position: center; 
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+}
+#clock-container{
+  display: flex;
+  align-items: top;
+  justify-content: center;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
-
-clock-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-clock {
+#clock{
   font-family: "DM Serif Text", serif;
   font-size: 6.1rem;
   font-weight: normal;
   text-align: center;
-  color: #2f3e46;
+  color: #ffb703;
   backdrop-filter: blur(2px);
   width: 100%;
 }
-
-date {
+#date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "DM Serif Text", serif;
   font-size: 25px;
   font-weight: normal;
   text-align: center;
-  color: #cad2c5;
+  color: #ffdc5e;
   backdrop-filter: blur(2px);
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 0;
+  margin: 0;
+  
 }
 
 body2{
@@ -64,7 +63,7 @@ body2{
 }
 
 h2{
-  color: #354f52;
+  color: #e76f51;
   margin: 8px 0;
   font-size: 20px; 
 }
@@ -86,7 +85,7 @@ input {
 }
 
 button {
-  background: #52796f;
+  background: #ffdc5e;
   color: white;
   border: none;
   border-radius: 10px;
@@ -97,7 +96,7 @@ button {
 }
 
 button:hover {
-  background: #2f3e46;
+  background: #ffb703;
 }
 
 #temp-div p {
