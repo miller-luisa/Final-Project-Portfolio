@@ -3,104 +3,111 @@
 <head>
 <title>Personal Portfolio</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-  body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-    color: #333;
-    line-height: 1.6;
-  }
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #cad2c5, #84a98c);
+  color: #2f3e46;
+  line-height: 1.6;
+}
 
-  h1, h3 {
-    color: #2c3e50;
-  }
+h1, h3 {
+  color: #2f3e46;
+}
 
-  a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: 600;
-  }
+a {
+  color: #52796f;
+  text-decoration: none;
+  font-weight: 600;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
+  color: #354f52;
+}
 
-  header {
-    background: #2c3e50;
-    color: #fff;
-    padding: 2rem 1rem;
-    text-align: center;
-    border-bottom: 4px solid #00bfff;
-  }
+header {
+  background: #354f52;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 4px solid #84a98c;
+}
 
-  header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: #fff;
-  }
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #fff;
+}
 
-  section {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
- .projects {
+.projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }
 
+.project {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  background: #cad2c5;
+}
+
+.project h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #354f52;
+}
+
+.project p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #354f52;
+  color: white;
+  margin-top: 3rem;
+  border-top: 4px solid #52796f;
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 1rem;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
   .project {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
   }
+}
 
-  .project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);;
-  }
-
-  .project h3 {
-    margin-top: 0;
-    font-size: 1.25rem;
-    color: #34495e;
-  }
-
-  .project p {
-    font-size: 0.95rem;
-    margin-bottom: 1rem;
-  }
-
-  footer {
-    text-align: center;
-    padding: 1.5rem;
-    background: #2c3e50;
-    color: white;
-    margin-top: 3rem;
-    border-top: 4px solid #3498db;
-  }
-
-  @media (max-width: 600px) {
-    section {
-      padding: 1rem;
-    }
-    .project {
-      padding: 1rem;
-    }
-  }
-  .about-container {
+.about-container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
@@ -109,10 +116,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   line-height: 1.6;
 }
+
 .about-container h1 {
   margin-top: 0;
-  color: #0077cc;
+  color: #52796f;
 }
+
 .projects-section {
   max-width: 1000px;
   margin: 2rem auto;
@@ -121,13 +130,12 @@
 
 .projects-heading {
   font-size: 2rem;
-  color: #0077cc;
+  color: #52796f;
   margin-bottom: 1rem;
-  text-align: left; /* aligns the heading to the left */
-  padding-left: 0.5rem; /* optional: aligns better with cards */
+  text-align: left;
+  padding-left: 0.5rem;
   padding-top: 1rem;
 }
-
 </style>
 
 </head>
